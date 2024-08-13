@@ -1,0 +1,12 @@
+
+c	java:S106"9Replace this use of System.out or System.err by a logger.(‚š‰1HßRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÂ¤…þÿÿÿÿHàRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÞÅ´HáRMAJORZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(—ØÑéHâRMAJORZ
+CODE_SMELL
+|
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.CrossOrigin'.(º´Ñ†HãRMINORZ
+CODE_SMELL

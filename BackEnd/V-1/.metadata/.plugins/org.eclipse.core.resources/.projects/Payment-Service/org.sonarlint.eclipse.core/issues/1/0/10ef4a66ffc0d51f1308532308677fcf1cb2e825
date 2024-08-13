@@ -1,0 +1,10 @@
+
+M
+java:S1170"!Make this final field static too.(òäÆÔHˆRMINORZ
+CODE_SMELL
+R
+java:S1170"!Make this final field static too.(ÆÍ–ÁøÿÿÿÿH‰RMINORZ
+CODE_SMELL
+w
+java:S62011"FReplace this instanceof check and cast with 'instanceof String string'(‘Óí—ùÿÿÿÿHŠRMINORZ
+CODE_SMELL

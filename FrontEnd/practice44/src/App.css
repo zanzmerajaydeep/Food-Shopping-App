@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+card=---------------------------------------------------*/
+.card {
+  max-width: 300px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  padding: 20px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.card-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  flex-grow: 1;
+}
+
+X
+
+/* card=-------------- -------------------------------------*/ 
+
+/* login-------------------------------------------------------------- */
+.modern-card {
+  width: 350px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modern-card .card-body {
+  padding: 20px;
+}
+
+/* navbar css=========================== */
+
+/* .my-navbar {
+  background-color: #a2e2f675 ;
+} */
+.custom-navbar {
+  background-color: #76c3db76;
+  box-shadow: 0 2px 4px rgba(53, 122, 131, 0.1);
+  position: fixed;
+  top: 0;
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 60px;
+
+}
+
+.custom-navbar .custom-navbar-brand {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.custom-navbar .custom-navbar-nav .custom-nav-link {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.custom-navbar .custom-navbar-nav .custom-nav-link:hover {
+  color: #343a40;
+}
+
+.custom-navbar .custom-dropdown-toggle {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.custom-navbar .custom-dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .custom-dropdown-item {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.custom-navbar .custom-dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+
+.custom-navbar .custom-nav-link.special-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6b6b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .custom-nav-link.special-text:hover {
+  color: #dc3545;
+}
+
+
+/* ============================================================ */
+
+
+
+/* cpmman css for home footer and navbar******************************** */
+.footer {
+  background-color: rgb(205, 244, 242);
+  padding: 7px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/**********************************************/
+
+/* general css border ------------------------------------------- */
+.myDiv{
+  border-top:  3px solid rgb(139, 229, 242);
+  border-bottom: 5px solid lightblue;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*for Error page=================================================*/
+/* .my-form{
+  display: flexbox;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+} */
+/*================*/
+
+.my-form{
+  padding: 30px;
+  border-top: 4px #282c34 solid;
+  border-bottom:1px #282c34 solid;
+  box-shadow: 0 5px 10px rgba(8, 24, 26, 0.1);
+}
+
+table{
+  padding: 20px;
+  border-top: 5px #282c34 solid;
+  border-bottom:1px #282c34 solid;
+  box-shadow: 1 5px 10px rgba(5, 18, 20, 0.1);
+
+}
+
+
